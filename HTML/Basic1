@@ -22,3 +22,20 @@
 		<p>Conteúdo da Página </p>
 	</body>
 </html>
+
+========== EXEMPLO 03 ============
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head> 
+		<title>
+			Aula 1
+		</title>
+	</head>
+	<body>
+		<p style="color:red;">Mudou a cor </p>
+		<p style="font-family:verdana;">Mudou a fonte</p>
+		<p style="font-size:30px;">Mudou a Tamanho</p>
+		<p style="color:blue; font-size:20px;">Cor e tamanho</p>
+		<p style="text-align:center;">Mudou o alinhamento </p>
+	</body>
+</html>
