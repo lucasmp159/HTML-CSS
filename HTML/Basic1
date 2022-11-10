@@ -1,0 +1,24 @@
+============ EXEMPLO 01 ==========
+<html>
+	<head>
+		<title>Meu Primeiro Site</title>
+	</head>
+	<body>
+		Vai ficar todo o conteúdo do meu site
+	</body>	
+</html>
+
+========== EXEMPLO 02 ============
+
+<!DOCTYPE html>
+<html lang=“pt-br”>
+	<head>
+		<title>
+			Meu site
+		</title>
+	</head>
+	<body>
+		<h1> Cabeçalho da Página </h1>
+		<p>Conteúdo da Página </p>
+	</body>
+</html>
