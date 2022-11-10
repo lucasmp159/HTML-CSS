@@ -50,11 +50,11 @@
 	<body>
 		<h1 style="color: black; font-size: 50px; text-align:center;"> Desenvolvedor FrontEnd </h1>
 			<h2 style="color: black; font-size: 50px; text-align:center;"> Cursos </h2>
-				<p style = "color:blue; font-size:30px; text-align: center;"> Python<br>
+				<p style = "color:blue; font-size:30px; text-align: center;"> <i> Python<br>
 					Java<br>
 					Javascript<br>
-					PHP<br>
-			<h2 style = "text-align: center;"> Habilidade </h2>
+					PHP<br></i></p>
+			<h2 style = "text-align: center;"><strong> Habilidades </strong></h2>
 				<p style="text-align:center;"> Trabalho em Equipe<br>
 
 	</body>
