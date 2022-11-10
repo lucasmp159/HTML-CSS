@@ -61,7 +61,30 @@
 </html>
 
 
-
+=================== EXEMPLO 04 ================
+<!DOCTYPE html>
+<html lang=“pt-br”>
+	<head>
+		<title>
+			Meu site
+		</title>
+	</head>
+	<body>
+			<!--
+					Comentário
+			-->
+			<b> Texto em negrito </b><br>
+			<strong> Texto importante </strong><br>
+			<i> Texto em itálico </i><br>
+			<em> Texto com ênfase </em><br>
+			<mark> Texto marcado </mark><br>
+			<small> Texto em tamanho reduzido </small><br>
+			<del> Texto deletado / taxado </del><br>
+			<ins> Texto inserido (navegadores normalmente sublinham)</ins><br>
+			<sub> Texto subescrito 2</sub>
+			<sup> Texto superescrito 2</sup>
+	</body>
+</html>
 
 
 
