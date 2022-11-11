@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head> 
+		<title>
+			Primeiro exercício de HTML
+		</title>
+	</head>
+	<body>
+		<div style="text-align:center;">
+			<a href="https://www.google.com"><img src="google-logo.png" alt="Google" aling="middle"></a><br>
+			<h1> Google</h1>
+			<a href="https://infinityschool.com.br/"><img src="Infinity-logo.png" alt="Infinity" aling="middle"></a><br>
+			<h1> Infinity </h1>	
+			<a href="https://twitter.com/"><img src="twitter-logo-2-1.png" alt="Twitter" width=300 heigth=300 aling="middle"></a>
+			<h1> Twitter </h1>	
+		</div>
+	</body>
+</html>
