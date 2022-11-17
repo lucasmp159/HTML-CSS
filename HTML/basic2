@@ -25,6 +25,17 @@
         <input type="radio" id="Programador" name="grupo" value="Radio 3">BackEnd
 
         <br><br>
+        Unidade Disponível
+        <br><br>
+        <select name="unidade" id="unidade">
+        	<option value="FORTALEZA">FORTALEZA</option><br>
+        	<option value="BAHIA">BAHIA</option><br>
+        	<option value="BH">BELO HORIZONTE</option><br>
+        	
+        </select>
+
+
+        <br><br>
         <input type="submit" value="Enviar">
 	</body>
 </html>
