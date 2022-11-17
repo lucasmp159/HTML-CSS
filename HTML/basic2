@@ -1,0 +1,23 @@
+<!DOCTYPE html><html lang="pt-br">   
+ <head>     
+     <title>Site para Cadastro de Desenvolvedor Web</title>  
+ </head>    
+ 	<body> 
+    <form>
+    	Cadastro<br><br>
+    	Nome: <input type="text" id="nome"><br><br>
+    	Senha: <input type="text" id="senha"><br><br>
+
+
+    </form>
+	    <br><br>
+	    Opções de Linguagem<br><br>
+
+	    <input type="checkbox" id="HTML" value="1">HTML<br>
+	    <input type="checkbox" id="CSS" value="2">CSS<br>
+	    <input type="checkbox" id="JAVASCRIPT" value="3">JAVASCRIPT<br>
+	    <input type="checkbox" id="PHP" value="4">PHP<br>
+	    <br><br>
+        <input type="submit" value="Enviar">
+	</body>
+</html>
