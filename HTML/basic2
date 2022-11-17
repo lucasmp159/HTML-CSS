@@ -18,6 +18,13 @@
 	    <input type="checkbox" id="JAVASCRIPT" value="3">JAVASCRIPT<br>
 	    <input type="checkbox" id="PHP" value="4">PHP<br>
 	    <br><br>
+        Opção de Vaga
+        <br><br>
+        <input type="radio" id="Programador" name="grupo" value="Radio 1">Full Stack
+        <input type="radio" id="Programador" name="grupo" value="Radio 2">FrontEnd
+        <input type="radio" id="Programador" name="grupo" value="Radio 3">BackEnd
+
+        <br><br>
         <input type="submit" value="Enviar">
 	</body>
 </html>
