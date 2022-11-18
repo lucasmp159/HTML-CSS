@@ -5,6 +5,8 @@
  </head>    
  	<body> 
     <h1>Personal Information</h1>
-    <a href=""><img src="" width="" heigth=""></a>
+    <a href=""><img src="" alt="Linkedin" width="300" heigth="300"></a><br>
+    <a href=""><img src="" alt="Gmail"  width="300" heigth="300"></a><br>
+    <a href=""><img src="" alt="Github" width="300" heigth="300"></a><br>
 	</body>
 </html>
