@@ -13,7 +13,7 @@
 			</legend>
 		<form id="Cadastro.html"><br>
 			<label>Matricula: </label>
-			<input type="Cadastro" name="matricula" placeholder="Digite sua Matricula"><br>
+			<input type="number" name="matricula" placeholder="Digite sua Matricula"><br>
 			<br>
 			<label>Nome : </label>
 			<input type="text" id="nome" placeholder="Digite seu nome"><br>
@@ -24,6 +24,29 @@
 			<label>Senha:</label>
 			<input type="password" id="senha" name="password"><br>
 			<br>
+			<label>Selecione o curso: </label>
+			<select name ="curso">
+				<option value="vazio" selected>...</option>
+				<option value="python">Python</option>
+				<option value="django">Django</option>
+				<option value="Flask">Flask</option>
+				<option value="data">Data</option>
+			</select>
+
+			<br><br>	
+			<label>Selecione o seu sexo: </label>
+				 <input type="radio" name="sexo" value="masc"> Masculino
+				 <input type="radio" name="sexo" value="fem"> Feminino <br><br>
+
+			<label>Disponibilidade</label>
+				<input type="checkbox" name="manha" value="manha"> Manha
+				<input type="checkbox" name="tarde" value="tarde"> Tarde
+				<input type="checkbox" name="noite" value="noite" checked> Noite <br><br>	
+
+				<label>Data de Nascimento: </label>
+
+				<input type="date" name="data_nascimento"> <br>
+				<br>
 			<input type="submit" value="Enviar">
 		</fieldset>
 		</form>
