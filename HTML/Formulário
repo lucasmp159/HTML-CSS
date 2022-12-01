@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>
+			Formulário
+		</title>
+	</head>
+	<body>
+
+		<fieldset> <!-- Campo -->
+			<legend>
+				Cadastro <!-- Legenda do Campo -->
+			</legend>
+		<form id="Cadastro.html"><br>
+			<label>Matricula: </label>
+			<input type="Cadastro" name="matricula" placeholder="Digite sua Matricula"><br>
+			<br>
+			<label>Nome : </label>
+			<input type="text" id="nome" placeholder="Digite seu nome"><br>
+			<br>
+			<label>Email : </label>
+			<input type="text" id="email" placeholder="nome@exemplo.com"><br>
+			<br>
+			<label>Senha:</label>
+			<input type="password" id="senha" name="password"><br>
+			<br>
+			<input type="submit" value="Enviar">
+		</fieldset>
+		</form>
+	</body>
