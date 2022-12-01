@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="utf-8">
+		<title></title>
+	</head>
+	<body>
+		
+		<table>
+			<caption>
+				Lista de Estudantes
+			</caption>
+			<colgroup>
+				<col style="background: red;">
+				<col style="background: yellow;">
+				<col style="background: yellow;">
+			</colgroup>
+			<tr><th>ID</th><th>nome</th><th>idade</th></tr>
+			<tr><th>1</th><th>Pedro</th><th>12</th></tr>
+			<tr><th>2</th><th>Bianca</th><th>14</th></tr>
+			<tr><th>3</th><th>Natalia</th><th>15</th></tr>
+		</table>
+	</body>
+</html>
