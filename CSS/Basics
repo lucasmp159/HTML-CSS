@@ -21,4 +21,5 @@ style.css
 .texto-verde:hover{
 	background-color: aquamarine;
 	width: 100px;
-	curs
+	cursor: pointer;
+}
