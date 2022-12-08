@@ -1,0 +1,10 @@
+div {
+	width: 130px;
+	height: 130px;
+	background-color: bisque;
+	padding-top: 10px;
+	padding-left: 10px;
+	border-width: 10px;
+	border-style: solid;
+	margin: 20px;
+}
