@@ -1,0 +1,24 @@
+style.css
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.texto-verde{
+	color: green;
+}
+
+.fonte-grande {
+	font-size: 30px;
+	font-family: Tahoma;
+}
+
+#texto-azul {
+	color: darkblue;
+}
+
+.texto-verde:hover{
+	background-color: aquamarine;
+	width: 100px;
+	curs
