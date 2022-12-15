@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>MENU</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<nav id="menu-principal">
+	<!-- Criar uma lista não ordenada -->
+		<div>
+			<ul id="menu-principal">
+				<img src="img/logo.png" width="75" height="75">
+				<li><a href="#">Inicio</a></li>
+				<li><a href="#">Sobre</a></li>
+				<li><a href="#">Quem Somos</a></li>
+				<li><a href="#">Contato</a></li>
+				<li><a href="#">Portal Aluno</a></li>
+			</ul>
+		</div>
+	</nav>
+</body>
+</html>
