@@ -1,29 +1,31 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
+<html lang="pt-br">
+	<head> 
+        <meta charset="utf-8">
 		<meta name="viewport" content="utf-8">
-		<title></title>
+		<title>
+			Pizzaria Malucarela
+		</title>
+        <link rel="stylesheet" href="style.css">
 	</head>
-	<body>
-		
-
-		<table style="text-align: center;">
-			<caption>
-				Pizzaria
-			</caption>
-			<colgroup>
-				<col style="background: whitesmoke;">
-				<col style="background: yellow;">
-				<col style="background: yellow;">
-				<col style="background: white;">
-				<col style="background: yellow;">
-			</colgroup>
-			<tr><th>ID</th><th>Produto</th><th>Descrição</th><th bgcolor="yellow">Imagem</th><th>Preço</th></tr>
-			<tr><th>1</th><th>Pizza de Pepperoni</th><th>Pepperoni é uma variedade ítalo-americana apimentada do salame seco, feita de carne de porco e bovina, incluindo algumas vezes toucinho. <br> O processo de produção tem como tempero principal a páprica e etapas de fermentação e cozimento gradual do produto.</th><th><img src="pep.jpg" width="200" height="200"></th><th>R$20</th></tr>
-			<tr><th>2</th><th>Pizza de Mussarela</th><th>A Pizza de Mussarela é coberta com molho de tomate, queijo tipo mussarela, azeitonas pretas e orégano e massa com fermentação natural,<br> oferece mais sabor e qualidade à sua mesa.</th><th><img src="mus.jpg" width="200" height="200"></th><th>R$12</th></tr>
-			<tr><th>3</th><th>Pizza de Calabresa</th><th>É especialmente preparada com recheio generoso de linguiça calabresa de primeira qualidade, queijo muçarela e orégano. <br>A linguiça calabresa agrega um sabor único e levemente picante à pizza.</th><th><img src="cal.jpg" width="200" height="200"></th><th>R$15</th></tr>
-			<tr><th>4</th><th>Coca-Cola</th><th>Bebida gaseificada</th><th><img src="coca.jpg" width="200" height="200"></th><th>R$8</th></tr>
-		</table>
+	<body class="bodybuild">
+		<!--Texto do comentário -->
+		<div style="text-align:center;">
+			<h1 class="texto-verde"> Pizzaria </h1>
+                <table id="pizzaria"> 
+                    <colgroup>
+                        <col style="background: whitesmoke;">
+                        <col style="background: yellow;">
+                        <col style="background: yellow;">
+                        <col style="background: white;">
+                        <col style="background: yellow;">
+                    </colgroup>
+                    <tr><th>ID</th><th>Produto</th><th>Descrição</th><th>Imagem</th><th>Preço</th></tr>
+                    <tr><th>1</th><th>Pizza de Pepperoni</th><th>Pepperoni é uma variedade ítalo-americana apimentada do salame seco, feita de carne de porco e bovina, incluindo algumas vezes toucinho. <br> O processo de produção tem como tempero principal a páprica e etapas de fermentação e cozimento gradual do produto.</th><th><img src="pep.jpg" width="200" height="200"></th><th>R$20</th></tr>
+                    <tr><th>2</th><th>Pizza de Mussarela</th><th>A Pizza de Mussarela é coberta com molho de tomate, queijo tipo mussarela, azeitonas pretas e orégano e massa com fermentação natural,<br> oferece mais sabor e qualidade à sua mesa.</th><th><img src="mus.jpeg" width="200" height="200"></th><th>R$12</th></tr>
+                    <tr><th>3</th><th>Pizza de Calabresa</th><th>É especialmente preparada com recheio generoso de linguiça calabresa de primeira qualidade, queijo muçarela e orégano. <br>A linguiça calabresa agrega um sabor único e levemente picante à pizza.</th><th><img src="cal.jpeg" width="200" height="200"></th><th>R$15</th></tr>
+                    <tr><th>4</th><th>Coca-Cola</th><th>Bebida gaseificada</th><th><img src="coca.jpg" width="200" height="200"></th><th>R$8</th></tr>
+                </table>
+            </div>
 	</body>
 </html>
