@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, intial scale=1">
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<title></title>
+</head>
+<body>
+	<header>
+		<div class="center">
+			<div class="logo"><img id="icon" src="img/inf.PNG"/></div>
+			<div class="menu">
+				<a href="#">Home</a>
+				<a href="#">Contatos</a>
+				<a href="#">Quem somos</a>
+				<a href="#">Entrar</a>
+			</div>
+		</div>
+	</header>
+
+	<section class="sobre">
+		<div class="centro">
+			<div class="texto">
+			<h1>Arena <span style="color: #FC2C00">Infinity</span></h1><br>
+			<p>Com um olhar sempre no futuro, desenvolvemos e disseminamos conhecimentos de<br> 
+			teorias e métodos de Administração de Empresas, aperfeiçoando o desempenho das <br>
+			instituições brasileiras através de três linhas básicas de atividade: Educação Executiva,<br>
+		 	Pesquisa e Consultoria.</p><br>
+			</div>
+		</div>
+
+		<div class="extras">
+			<img src="img/programadorDois.png">
+		<div class="social-midia">
+			<a href="#"><img src="img/f.png"/></a>
+			<a href="#"><img src="img/i.png"/></a>
+			<a href="#"><img src="img/w.png"/></a>
+		</div>
+	</div>
+	<button>Submit</button>
+	</section>
+</body>
+</html>
