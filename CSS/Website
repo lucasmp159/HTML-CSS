@@ -1,0 +1,88 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Verdana, Geneva, Tahona, sans-serif;
+} /*Todo o site*/
+
+
+html, body {
+	height: 100%;
+	overflow-y: hidden;
+	overflow-X:hidden ;
+}
+
+
+.center{
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 1280;
+}
+
+header {
+	height: 200px;
+	padding: 20px 0;
+}
+
+.logo{
+	width: 50%;
+}
+
+.menu{
+	padding: 30px;
+	width: 50%;
+	text-align: right;
+}
+
+.menu a{
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+	margin-right: 15px;
+}
+
+/* EFEITO  DA BOLA */
+
+section.sobre{
+
+	height: calc(100% - 200px);
+	position: relative;
+}
+
+.extras{
+	position: absolute;
+	bottom: -450px;
+	right: -500px;
+	width: 1200px;
+	height: 1200px;
+	border-radius: 50%;
+	background: #FC2C00;
+}
+
+.social-midia{
+	position: absolute;
+	right: 570px;
+	top:  200px;
+}
+
+.social-midia a{
+	display: block;
+	width: 10px;
+	margin: 10px;
+}
+
+.texto {
+	margin-top: 100px;
+}
+
+.texto h1{
+	font-size: 50px;
+}
+
+.texto p{
+	margin: 20px;
+	color: black;
+	font-size: 15px;
+	font-weight: bold;
+	max-width: 800px;
+}
