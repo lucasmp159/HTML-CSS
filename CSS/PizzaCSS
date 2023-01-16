@@ -1,0 +1,37 @@
+style.css
+
+*
+{
+    padding: auto;
+    margin: 0;
+}
+
+.bodybuild{
+    background-color: aqua;
+}
+
+#pizzaria{
+    margin-left: 250px;
+}
+
+.texto-verde{
+	color: green;
+}
+
+.fonte-grande {
+	font-size: 30px;
+	font-family: Tahoma;
+}
+
+#texto-azul {
+	color: darkblue;
+}
+
+.texto-verde:hover{
+	background-color: aquamarine;
+	width: 200px;
+    margin-left: 850px;
+    text-align: center;
+	cursor: pointer;
+}
+Footer
