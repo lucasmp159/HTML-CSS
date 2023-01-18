@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JS</title>
+    </head>
+    <body>
+        <div>
+            Digite o seu job: <input type="text" id="job"><br/>
+        </br>
+            Digite o sua idade: <input type="text" id="idade"><br/>
+        </br>
+            <input type="button" value="Executar" onclick="condicao()">
+        </div>
+        <div id ="condicao1">
+            Sou Programador e tenho 21 anos
+        </div>
+        <div id ="condicao2">
+            Sou maior de 21 e sou programador
+        </div>
+        <div id ="condicao3">
+            Não sou maior de 21 e sou programador
+        </div>
+        <div id ="condicao4">
+            Não sou Programador e tenho mais de 21 anos
+        </div>
+        <div id ="condicao5">
+            Não sou Programador e tenho menos de 21 anos
+        </div>
+
+        <script type="text/javascript">
+            function condicao(){ 
+            let job = document.getElementById('job').value;
+            let idade = document.getElementById('idade').value; 
+            if (job == "programador" && idade == 21)
+                document.getElementById('condicao1').innerText;
+            if (job == "programador" && idade > 21)
+                document.getElementById('condicao2').innerText;
+            if (job == "programador" && idade < 21)
+                document.getElementById('condicao3').innerText;
+            if (job != "programador" && idade > 21)
+                document.getElementById('condicao4').innerText;
+            if (job != "programador" && idade < 21)
+                document.getElementById('condicao5').innerText;
+            }
+        </script>
+    </body>
+    </html>
